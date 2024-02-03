@@ -1,0 +1,35 @@
+#maincontainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+#resDiv {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.068);
+    padding: 20px;
+    font-size: 13px;
+    margin-left: 3px;
+   
+}
+
+.dynamicValues {
+    color: #EA425C;
+    font-family: monospace;
+    margin-left: 10px;
+}
+#deleteButton {
+    /* Your styles here */
+    background-color: red;
+    color: white;
+    display: flex;
+    padding: 5px 8px;
+    
+  }
+  
